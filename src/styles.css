@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  color: #404C51;
+  color: #404c51;
 }
 
 label {
@@ -11,11 +11,28 @@ label {
 
 @media (min-width: 1200px) {
   .container {
-      width: 1170px;
-      margin: 0 auto;
+    width: 1170px;
+    margin: 0 auto;
   }
 }
 
 .label {
   margin: 0.5em;
+}
+
+.col-valor-header {
+  width: 120px;
+  text-align: center !important;
+}
+
+.col-valor-content {
+  text-align: right !important ;
+}
+
+.col-data-header {
+  width: 120px;
+}
+
+.col-data-content {
+  text-align: center !important;
 }
