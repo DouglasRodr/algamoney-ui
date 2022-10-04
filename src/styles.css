@@ -50,8 +50,8 @@ label {
   margin-right: 5px;
 }
 
-button.p-button {
-  margin: 0 0.25em;
+form .p-button {
+  margin-right: .25em;
 }
 
 @media (min-width: 40em) {

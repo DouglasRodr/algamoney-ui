@@ -1,9 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core'
 
 @Component({
   selector: 'app-lancamentos-pesquisa',
   templateUrl: './lancamentos-pesquisa.component.html',
-  styleUrls: ['./lancamentos-pesquisa.component.css'],
+  styleUrls: ['./lancamentos-pesquisa.component.css']
 })
 export class LancamentosPesquisaComponent {
   lancamentos = [
@@ -13,7 +13,7 @@ export class LancamentosPesquisaComponent {
       dataVencimento: new Date(2017, 5, 30),
       dataPagamento: null,
       valor: 4.55,
-      pessoa: 'Padaria do José',
+      pessoa: 'Padaria do José'
     },
     {
       tipo: 'RECEITA',
@@ -21,7 +21,7 @@ export class LancamentosPesquisaComponent {
       dataVencimento: new Date(2017, 5, 10),
       dataPagamento: new Date(2017, 5, 30),
       valor: 80000,
-      pessoa: 'Atacado Brasil',
+      pessoa: 'Atacado Brasil'
     },
     {
       tipo: 'DESPESA',
@@ -29,7 +29,7 @@ export class LancamentosPesquisaComponent {
       dataVencimento: new Date(2017, 6, 20),
       dataPagamento: null,
       valor: 14312,
-      pessoa: 'Ministério da Fazenda',
+      pessoa: 'Ministério da Fazenda'
     },
     {
       tipo: 'DESPESA',
@@ -37,7 +37,7 @@ export class LancamentosPesquisaComponent {
       dataVencimento: new Date(2017, 5, 5),
       dataPagamento: new Date(2017, 4, 30),
       valor: 800,
-      pessoa: 'Escola Abelha Rainha',
+      pessoa: 'Escola Abelha Rainha'
     },
     {
       tipo: 'RECEITA',
@@ -45,7 +45,7 @@ export class LancamentosPesquisaComponent {
       dataVencimento: new Date(2017, 7, 18),
       dataPagamento: null,
       valor: 55000,
-      pessoa: 'Sebastião Souza',
+      pessoa: 'Sebastião Souza'
     },
     {
       tipo: 'DESPESA',
@@ -53,7 +53,7 @@ export class LancamentosPesquisaComponent {
       dataVencimento: new Date(2017, 6, 10),
       dataPagamento: new Date(2017, 6, 9),
       valor: 1750,
-      pessoa: 'Casa Nova Imóveis',
+      pessoa: 'Casa Nova Imóveis'
     },
     {
       tipo: 'DESPESA',
@@ -61,7 +61,7 @@ export class LancamentosPesquisaComponent {
       dataVencimento: new Date(2017, 6, 13),
       dataPagamento: null,
       valor: 180,
-      pessoa: 'Academia Top',
-    },
-  ];
+      pessoa: 'Academia Top'
+    }
+  ]
 }
